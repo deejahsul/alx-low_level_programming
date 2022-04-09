@@ -3,7 +3,7 @@
 #include <stdio>
 
 /**
- * main -the cotaining function
+ * main -the containing function
  * Return :will return zero when successful
  */
  
@@ -28,4 +28,4 @@
 		printf("and is less than ^ and not 0\n");
 	}
 	return (0);
-}
+ }
