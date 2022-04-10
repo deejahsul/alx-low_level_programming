@@ -4,7 +4,7 @@
 
 /**
  * main -the containing function
- * Return :will return zero when successful
+ * Return :will return (0) when successful
  */
  
  int main(void)
