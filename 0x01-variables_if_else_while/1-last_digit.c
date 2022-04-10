@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main -the containing function
- * Return :will return (0) when successful
+ * main - the containing function
+ * Return: will return (0) when successful
  */
  
  int main(void)
