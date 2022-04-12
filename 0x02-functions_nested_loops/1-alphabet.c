@@ -5,7 +5,7 @@
  * main - print_alphabet - prints every character of the alphabet
  */
 
-void print_alphabet(i)
+void print_alphabet()
 {
  	for (int i = 'a'; i<= 'z'; i++)
 	{
