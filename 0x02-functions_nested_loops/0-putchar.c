@@ -3,10 +3,10 @@
 
 /**
  * main - the containing function
- * Return : 0 when successful
+ * Return: 0 when successful
  */
 
-int main()
+int main(void)
 {
 	putchar('_');
 	putchar('p');
