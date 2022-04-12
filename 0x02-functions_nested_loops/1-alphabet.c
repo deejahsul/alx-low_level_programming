@@ -5,9 +5,9 @@
  * main - print_alphabet - prints every character of the alphabet
  */
 
-void print_alphabet()
+void print_alphabet(void)
 {
- 	for (int i = 'a'; i<= 'z'; i++)
+ 	for (int i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
