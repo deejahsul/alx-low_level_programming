@@ -1,15 +1,14 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - print_alphabet
+ * main - print_alphabet - prints every character of the alphabet
  */
 
 void print_alphabet(void)
 {
-	char 'd';
+	char i;
 
-	for (d = 'a'; d <= 'z'; d++)
-		putchar(d);
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
 	putchar('\n');
 }
