@@ -6,7 +6,8 @@
  * Return : 0 when successful
  */
 
-int main (void) {
+int main()
+{
 	putchar('_');
 	putchar('p');
 	putchar('u');
