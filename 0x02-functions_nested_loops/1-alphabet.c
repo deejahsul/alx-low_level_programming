@@ -7,8 +7,8 @@
 
 void print_alphabet(void)
 {
-	putchar('i');
-	putchar('\n');
+	_putchar('i');
+	_putchar('\n');
 }
 /**
  * main - main function
