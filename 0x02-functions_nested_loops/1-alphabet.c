@@ -20,6 +20,6 @@ void print_alphabet(i)
  */
 int main(void)
 {
-	print_alphabet('i');
+	print_alphabet();
 	return (0);
 }
