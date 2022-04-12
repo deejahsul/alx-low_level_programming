@@ -5,7 +5,7 @@
  * main - print_alphabet - prints every character of the alphabet
  */
 
-void print_alphabet(void)
+void print_alphabet(i)
 {
 	_putchar('i');
 	_putchar('\n');
@@ -16,6 +16,6 @@ void print_alphabet(void)
  */
 int main(void)
 {
-	print_alphabet();
+	print_alphabet('a');
 	return (0);
 }
