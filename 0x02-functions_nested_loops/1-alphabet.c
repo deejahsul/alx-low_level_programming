@@ -7,15 +7,16 @@
 
 void print_alphabet(i)
 {
-	putchar('i');
+	putchar(i);
 	putchar('\n');
 }
+
 /**
  * main - main function
  * Return; always 0
  */
 int main(void)
 {
-	print_alphabet('a');
+	print_alphabet('i');
 	return (0);
 }
