@@ -8,6 +8,6 @@
 void print_alphabet(void)
 {
 	char d;
-	putchar('d')
-	putchar('\n')
+	putchar('d');
+	putchar('\n');
 }
