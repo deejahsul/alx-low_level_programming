@@ -1,28 +1,21 @@
 #include "main.h"
 
 /**
- * _strcmp - compares string
- * @s1: params
- * @s2: params
- * Return: int
+ * string_toupper - to upper case
+ * @n: param
+ * Return: char
  */
 
-int _strcmp(char *s1, char *s2)
+char *string_toupper(char *n)
 {
-	int i, j = 0;
+	int i;
 
-	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (s1[i] != s2[i])
+		if (n[i] > 96 && n[i] < 123)
 		{
-			j = (s1[i] - s2[i]);
-			break;
-		}
-		else
-		{
-			j = s1[i] - s2[i];
+			n[i] = n[i] - 32;
 		}
 	}
-
-	return (j);
+	return (n);
 }
